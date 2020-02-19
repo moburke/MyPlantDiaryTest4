@@ -11,7 +11,14 @@ import org.junit.Assert.*
  */
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+
+    //fun confirmEasternRedbud_outputsEasternRedbud(){
+        //var plant: Plant =Plant(genus:"Cercis"; species:"canadesis", common:"Eastern Redbud")
+        //assertEquals(expected:"Eastern Redbud", plant.toString())
+    //}
+
+    fun addThreeAndThree_equalsSix() {
+        assertEquals(6, 3 + 3)
     }
+
 }
